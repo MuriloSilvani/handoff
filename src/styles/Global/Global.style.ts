@@ -9,8 +9,8 @@ export const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.background.main};
-    color: ${({ theme }) => theme.colors.text.main};
+    background: ${({ theme }) => theme.colors.neutral[90]};
+    color: ${({ theme }) => theme.colors.neutral.white};
     font-family: Poppins, sans-serif;
     font-size: 1rem;
     margin: 0;

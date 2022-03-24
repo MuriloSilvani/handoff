@@ -1,12 +1,23 @@
 export interface DefaultTheme {
   colors: {
-    text: {
-      main: string
-      secondary: string
+    neutral: {
+      '100': string
+      '90': string
+      '80': string
+      '50': string
+      '20': string
+      '10': string
+      '05': string
+      white: string
     }
-    background: {
+    primary: {
       main: string
-      secondary: string
+      hover: string
+      pressed: string
+    }
+    semantic: {
+      green: string
+      red: string
     }
   }
 }
