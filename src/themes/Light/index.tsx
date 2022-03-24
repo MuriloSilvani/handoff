@@ -4,11 +4,11 @@ export const Light: DefaultTheme = {
   colors: {
     text: {
       main: '#011F26',
-      secondary: '#025E73'
+      secondary: '#025E73',
     },
     background: {
       main: '#026873',
-      secondary: '#03A688'
-    }
-  }
+      secondary: '#03A688',
+    },
+  },
 }
