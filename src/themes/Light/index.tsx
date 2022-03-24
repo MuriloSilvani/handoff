@@ -10,7 +10,7 @@ export const Light: DefaultTheme = {
       '20': '#D4D4D4',
       '10': '#E7E7E7',
       '05': '#F3F3F3',
-      white: '#FFF'
+      white: '#FFF',
     },
     primary: {
       main: '#0480DC',
