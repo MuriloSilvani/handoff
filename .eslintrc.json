@@ -1,0 +1,17 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals", 
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "prefer-const": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "no-multi-spaces": "error",
+    "no-multiple-empty-lines": "error",
+    "no-extra-parens": "error"
+  }
+}
