@@ -15,11 +15,11 @@ export const Light: DefaultTheme = {
     primary: {
       main: '#0480DC',
       hover: '#0063AC',
-      pressed: '#004B83'
+      pressed: '#004B83',
     },
     semantic: {
       green: '#1AB060',
-      red: '#F83636'
-    }
-  }
+      red: '#F83636',
+    },
+  },
 }

@@ -1,12 +1,7 @@
 import { ButtonStyle } from './styles'
 
-
 function Button() {
-  return (
-    <ButtonStyle>
-      Button
-    </ButtonStyle>
-  )
+  return <ButtonStyle>Button</ButtonStyle>
 }
 
 export default Button

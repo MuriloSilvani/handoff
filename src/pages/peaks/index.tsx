@@ -1,9 +1,5 @@
 function Peaks() {
-  return (
-    <div>
-      Peaks
-    </div>
-  )
+  return <div>Peaks</div>
 }
 
 export default Peaks
